@@ -1,0 +1,12 @@
+논문 특징값
+<adaboost>
+결정 트리의 훈련 정확도/테스트 정확도 0.905/0.884
+Weighted Precision: 0.88
+Weighted Recall: 0.88
+Weighted F1-score: 0.88
+test data AUC: 0.962
+에이다부스트의 훈련 정확도/테스트 정확도 0.970/0.885
+Weighted Precision: 0.88
+Weighted Recall: 0.88
+Weighted F1-score: 0.88
+test data AUC: 0.972
