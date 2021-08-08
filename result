@@ -1,3 +1,20 @@
+hrv 특징값
+<adaboost>
+결정 트리의 훈련 정확도/테스트 정확도 0.934/0.890
+Weighted Precision: 0.89
+Weighted Recall: 0.89
+Weighted F1-score: 0.89
+test data AUC: 0.946
+에이다부스트의 훈련 정확도/테스트 정확도 1.000/0.918
+Weighted Precision: 0.92
+Weighted Recall: 0.92
+Weighted F1-score: 0.92
+test data AUC: 0.984
+
+<voting>
+
+
+
 논문 특징값
 <adaboost>
 결정 트리의 훈련 정확도/테스트 정확도 0.905/0.884
