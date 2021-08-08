@@ -12,8 +12,25 @@ Weighted F1-score: 0.92
 test data AUC: 0.984
 
 <voting>
+test data accuracy: 0.912
+test data recall: 0.898
+test data precison: 0.902
+test data f1 score: 0.900
+test data Confusion matrix:
+[[364  45  16  12]
+ [ 31 395  13   2]
+ [ 24  12 388  18]
+ [ 10   0   1 751]]
+ 
+<bagging>
+결정 트리의 훈련 정확도/테스트 정확도 1.000/0.866
+배깅의 훈련 정확도/테스트 정확도 1.000/0.922
+
+<xgboost>
+XGBoost 훈련 정확도/테스트 정확도 1.000/0.932
 
 
+=======================================================
 
 논문 특징값
 <adaboost>
@@ -27,6 +44,24 @@ Weighted Precision: 0.88
 Weighted Recall: 0.88
 Weighted F1-score: 0.88
 test data AUC: 0.972
+
+<voting>
+test data accuracy: 0.822
+test data recall: 0.788
+test data precison: 0.799
+test data f1 score: 0.773
+test data Confusion matrix:
+[[170 156 103  15]
+ [ 24 419   8   1]
+ [ 26  16 375  27]
+ [  0   0   2 776]]
+ 
+<bagging>
+결정 트리의 훈련 정확도/테스트 정확도 1.000/0.865
+배깅의 훈련 정확도/테스트 정확도 1.000/0.912
+
+<xgboost>
+XGBoost 훈련 정확도/테스트 정확도 0.998/0.925
 
 
 =======================================================
@@ -53,3 +88,10 @@ test data Confusion matrix:
  [ 35 395   9   2]
  [ 20   8 398  16]
  [  5   0   0 757]]
+ 
+<bagging>
+결정 트리의 훈련 정확도/테스트 정확도 1.000/0.892
+배깅의 훈련 정확도/테스트 정확도 1.000/0.937
+
+<xgboost>
+XGBoost 훈련 정확도/테스트 정확도 1.000/0.942
