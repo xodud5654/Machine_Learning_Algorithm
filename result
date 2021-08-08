@@ -10,3 +10,29 @@ Weighted Precision: 0.88
 Weighted Recall: 0.88
 Weighted F1-score: 0.88
 test data AUC: 0.972
+
+
+=======================================================
+hrv+논문 특징값
+<adaboost>
+결정 트리의 훈련 정확도/테스트 정확도 0.954/0.914
+Weighted Precision: 0.91
+Weighted Recall: 0.91
+Weighted F1-score: 0.91
+test data AUC: 0.970
+에이다부스트의 훈련 정확도/테스트 정확도 1.000/0.937
+Weighted Precision: 0.94
+Weighted Recall: 0.94
+Weighted F1-score: 0.94
+test data AUC: 0.989
+
+<voting>
+test data accuracy: 0.922
+test data recall: 0.908
+test data precison: 0.914
+test data f1 score: 0.911
+test data Confusion matrix:
+[[369  44  11  13]
+ [ 35 395   9   2]
+ [ 20   8 398  16]
+ [  5   0   0 757]]
